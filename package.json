@@ -1,12 +1,12 @@
 {
-  "name": "hexo-site",
-  "version": "0.0.0",
+  "name": "blog",
+  "version": "1.0.0",
   "private": true,
   "hexo": {
-    "version": ""
+    "version": "3.7.1"
   },
   "scripts": {
-    "deploy": "gh-pages -d public/"
+    "deploy": "gh-pages -d public"
   },
   "dependencies": {
     "hexo": "^3.2.0",
