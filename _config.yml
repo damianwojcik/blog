@@ -77,6 +77,8 @@ theme: clean-blog
 
 theme_config:
   menu_title: Home
+  comments:
+    disqus_shortname: dw-blog
 
   # Header
   menu:
