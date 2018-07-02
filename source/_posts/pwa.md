@@ -1,5 +1,7 @@
 ---
 title: Progressive Web Apps
+date: 2018-07-01 18:40:34
+tags: #pwa #optimization
 ---
 This post covers everything I have recently learned about PWA. It is also a kind of checklist and list of procedures, how to properly transform a page into PWA.
 
