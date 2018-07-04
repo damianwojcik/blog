@@ -11,7 +11,7 @@ By the end of reading you should become one too!
 - Allows us to check a form field to try and match a valid email address (form validation)
 - Used for string transformations (eg. removing http:// from links)
 
-Test your Regex online on [regex101](www.regex101.com)
+Test your Regex online on [regex101](https://regex101.com/)
 
 ## BASIC STRUCTURE
 - Syntax: <code>/.../</code>
@@ -130,7 +130,7 @@ Testing:
 <code>reg.test('mystring'); // returns TRUE because it matches</code>
 
 ## EXERCISES
-You can use [regex101](www.regex101.com) tool for solving.
+You can use [regex101](https://regex101.com/) tool for solving.
 Write regex <code>/.../</code> for matching:
 
 1. Telephone that must be a valid UK telephone number (11 digits)
