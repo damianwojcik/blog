@@ -31,47 +31,47 @@ Angular2 is co-developed by 2 gigants: **Google** and **Microsoft**.
 - <code>cd first-app</code>
 - <code>ng serve -o</code>
 
-### ARCHITECTURE
-#### 1. MODULES
+## ARCHITECTURE
+### MODULES
 - First building block.
 - Angular app is collection of many invidual modules.
 - Every module represents a feature area e.g. users module.
 - Root module: **AppModule**
 - May contain one or more Components and/or Services. 
 
-#### 2. COMPONENTS
+### COMPONENTS
 - Building blocks of app view.
 - Responsible for rendering view and it's logic.
 - Consists of template: **.html**, styles: **.css**, class: **.ts**, testing file: **.spec.ts**.
 
-#### 3. SERVICES
+### SERVICES
 - Business logic.
 - Provides **Data** for Components.
 
-### 1. COMPONENTS
+## COMPONENTS
 - **GOOD PRACTISE:** When starting building Angular2 application draw Components structure on a piece of paper.
 - Components have **@Component** decorator which contains metadata.
 - **Decorator** is a feature in TS. Function that provides information (metadata) about class attached to it (the one below it).
 - Split up large components into smaller sub-components. Each focused on specific task or workflow.
 
-#### CREATING COMPONENT USING CLI:
-<code>
+### GENERATING
+Using **Angular CLI**:
+``` javascript
     ng generator component dashboard
     ng g c dashboard
-</code>
+```
 
 Possible **flags**:
-* --flat - creates Component in current directory
-* --inline-template (or **-it**)
-* --inline-styles (or **-is**)
+* <code>--flat</code> - creates Component in current directory
+* <code>--inline-template</code> (or <code>-it</code>)
+* <code>--inline-styles</code> (or <code>-is</code>)
 
 Metadata's component **selector** may be: HTML tag(default), css class ('.dashboard') or attribute('[dashboard]')
 
 **GOOD PRACTISE:** if your template is NOT longer than **3 lines** use inline template.
 
-#### PROPERTY BINDING
-
-##### ATTRIBUTE VS PROPERTY
+### PROPERTY BINDING
+#### ATTRIBUTE VS PROPERTY
 - Are **not** the same.
 - Attributes => **HTML**.
 - Properties => **DOM**.
@@ -89,33 +89,33 @@ Example:
 Why property binding over interpolation?
 - Interpolation can work only with string values.
 
-#### CLASS BINDING
+### CLASS BINDING
 ``` html
     <h2 [class.text-danger]="some-condition">Hello</h2><!-- For Single Class Binding -->
     <h2 [ngClass]="titleClasses">Hello</h2><!-- For Multiple Classes Binding -->
 ```
 Don't use regular html class declaration together with Angular Class Binding (beacuse it will be skipped).
 
-#### STYLE BINDING
+### STYLE BINDING
 ``` html
     <h2 [style.color]="orange">Hello</h2>
     <h2 [style.color]="hasError ? 'red' : 'green'">Hello</h2>
     <h2 [ngStyle]="titleStyles">Hello</h2><!-- For Multiple Styles Binding -->
 ```
 
-#### EVENT BINDING
+### EVENT BINDING
 ``` html
     <button (click)="onclick()">Greet</button>
     <button (click)="onclick($event)">Greet</button><!-- Angular specific $event object -->
 ```
 
-#### TEMPLATE REFERENCE VARIABLES
+### TEMPLATE REFERENCE VARIABLES
 ``` html
     <input #myinput type="text">
     <button (click)="logMessage(myInput.value")>Log</button>
 ```
 
-#### TWO WAY DATA BINDING
+### TWO WAY DATA BINDING
 - Allows us to update a value of a property and at the same time display the value of that property.
 - View **<=>** Class (**sync**)
 - Uses **ngModel** directive.

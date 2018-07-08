@@ -8,7 +8,7 @@ subtitle: Blog
 description: My personal learning notepad about frontend related topics.
 keywords: javascript, frontend, programming, development, developer, progressive web apps, webdevelopment, clean code, blog, wordpress, pwa, passion, open source, frameworks, angular, gulp, webpack, firebase, ecmascript6, es2015, node.js, chrome, devtools, git, github, security
 author: Damian Wójcik
-language:
+language: en
 timezone:
 
 # URL
@@ -73,28 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: clean-blog
-
-theme_config:
-  menu_title: Home
-  comments:
-    disqus_shortname: dw-blog
-
-  # Header
-  menu:
-    Portfolio: https://damianwojcik.it/
-    Github:
-      url: https://github.com/khamian
-      icon: github
-    Twitter:
-      url: https://twitter.com/_damianwojcik
-      icon: twitter
-    Instagram:
-      url: https://www.instagram.com/_damianwojcik/
-      icon: instagram
-    LinkedIn:
-      url: https://www.linkedin.com/in/khamian/
-      icon: linkedin
+theme: cactus
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
