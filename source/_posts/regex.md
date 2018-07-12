@@ -142,5 +142,10 @@ Good luck and I encourage you to share your solutions in the comments.
 
 This is how you successfully became a **Regex Ninja**!
 
-## CREDITS
+<br>
+
+---
+
+**SOURCES:**
+
 [The Net Ninja](https://www.youtube.com/channel/UCW5YeuERMmlnqo4oq8vwUpg)

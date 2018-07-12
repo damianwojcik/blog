@@ -145,13 +145,18 @@ A service worker is a background script that intercepts network requests made by
 - Push notifications - [OneSignal](https://onesignal.com/)
 - [AMP](https://www.ampproject.org/)
 
-## SOURCES
-	https://en.wikipedia.org/wiki/Progressive_Web_Apps
-	https://developers.google.com/web/progressive-web-apps/
-	https://piecioshka.pl/blog/2017/05/07/jak-przerobic-strone-na-pwa.html
-	https://developers.google.com/web/progressive-web-apps/checklist
-	https://developers.google.com/web/fundamentals/primers/service-workers/
-	https://www.biggerpicture.agency/insights/guide-to-website-performance-optimisation
-	https://www.biggerpicture.agency/insights/feedgist-a-progressive-web-app-case-study
-    https://syntax.fm/show/050/progressive-web-apps
-    https://pwa.rocks/
+<br>
+
+---
+
+**SOURCES:**
+
+<https://en.wikipedia.org/wiki/Progressive_Web_Apps>
+<https://developers.google.com/web/progressive-web-apps/>
+<https://piecioshka.pl/blog/2017/05/07/jak-przerobic-strone-na-pwa.html>
+<https://developers.google.com/web/progressive-web-apps/checklist>
+<https://developers.google.com/web/fundamentals/primers/service-workers/>
+<https://www.biggerpicture.agency/insights/guide-to-website-performance-optimisation>
+<https://www.biggerpicture.agency/insights/feedgist-a-progressive-web-app-case-study>
+<https://syntax.fm/show/050/progressive-web-apps>
+<https://pwa.rocks/>

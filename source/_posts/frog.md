@@ -10,13 +10,11 @@ Self-discipline and self-development is one of the most important attribute of g
 To progress on career or any skill in life we often need to do things that we don't really want to do in order to succeed.
 
 Before starting remember:
-<blockquote>
-If you have to eat two frogs, start with the one that is more revolting.
-</blockquote>
-and:
-<blockquote>
-If you have to eat live frog, it is not worth to stare at it for long.
-</blockquote>
+> If you have to eat two frogs, start with the one that is more revolting.
+
+and
+
+> If you have to eat live frog, it is not worth to stare at it for long.
 
 Below is the list of **21 rules** how to boost up the productivity. 'Eat That Frog!'
 
