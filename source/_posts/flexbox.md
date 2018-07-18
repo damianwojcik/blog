@@ -1,7 +1,7 @@
 ---
 title: Flexbox
 date: 2018-07-12 07:53:11
-tags: #flexbox #css #rwd
+tags: #flexbox #css #responsive
 ---
 ## FLEXBOX FEATURES
 - Flexible and efficient layouts
@@ -11,6 +11,7 @@ tags: #flexbox #css #rwd
 - Chaning order of items
 - Cross-browser
 - Used by Bootstrap 4
+- Changing Flexbox Items `order` may cause accessibility issues (e.g. break keyboard navigation)
 
 ## TERMINOLOGY
 ![Flexbox Terminology](terminology.jpg)
@@ -135,6 +136,11 @@ Default: `auto`
 Overrides the `align-items` value of the Flex Container
 Possible values: `auto | flex-start | flex-end | center | stretch`
 <br>
+
+## PRACTISE
+Practise is the key. In order to master CSS Flexbox I turned an old project layout into Flexbox. I did both **desktop-first** and **mobile-first** to compare different perspectives.
+- Demos: [Desktop First](https://damianwojcik.it/projects/flexbox-ppn/desktop-first/) | [Mobile First](https://damianwojcik.it/projects/flexbox-ppn/mobile-first/)
+- Code: [GitHub](https://github.com/khamian/flexbox-ppn)
 
 ---
 
