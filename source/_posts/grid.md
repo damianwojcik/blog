@@ -67,6 +67,8 @@ To achieve wrapping, we can use the `auto-fit` or `auto-fill` keywords.
 Example syntax:
 `grid-template-columns: repeat( auto-fit, minmax(250px, 1fr) )`
 
+![Grid auto-fit & auto-fill](auto-fitfill.jpg)
+
 #### LINE NAMES
 `grid-template-columns: [aside-left] 1fr [aside-right content-start] 1fr [content-end]`
 
@@ -78,8 +80,6 @@ Example syntax:
     align-items: center;
 }
 ```
-
-![Grid auto-fit & auto-fill](auto-fitfill.jpg)
 
 ### GRID TEMPLATE AREAS
 Defines a grid template by referencing the names of the grid areas properties defined in Grid Items. The syntax itself provides a visualization of the structure of the grid (**ASCI like ;)**)
