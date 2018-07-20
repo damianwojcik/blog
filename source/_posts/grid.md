@@ -183,7 +183,8 @@ Steps for proper, accessible implementation:
 
 ## PRACTISE
 
-TBA
+- Demo: [Mobile First](https://damianwojcik.it/projects/grid-ppn/)
+- Code: [GitHub](https://github.com/khamian/grid-ppn)
 
 ---
 

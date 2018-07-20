@@ -140,4 +140,65 @@ By using them you can spend less time writing **RegEx**
     }
     ```
 
+## DESTRUCTING
+Allows you to extract properties/items from an object/array multiple at the time.
+
+- Object destructing:
+``` javascript
+const person = {
+    first: 'Damian',
+    last: 'Wojcik',
+    age: 25
+}
+
+// Old way
+const first = person.first;
+const last = person.last;
+// New way
+const { first, last } = person;
+
+// Works with functions too
+const { first, last } = makePerson('Damian', 'Wójcik');
+
+// Renaming while extracting
+const { first: f, last: l} = person;
+
+// Fallback to default value
+const { first, last, race = 'human'}
+```
+
+- Array destructing:
+``` javascript
+const languages = ['Polish', 'English', 'German', 'Spanish'];
+const [pl, en, de, es] = languages;
+
+// using REST / SPREAD
+const [pl, en ...otherLanguages] = languages
+
+// switch variables (swap)
+[first, second] = [second, first];
+```
+
+- Consider the syntax:
+``` javascript
+function tipCalc = ( { total = 100, tip = 0.15, tax = 0.13 } = { } ) { ... }
+const bill =  tipCalc( { tip: 0.20, total: 200 } );
+```
+
+## FOR OF
+Works only with **iterable structures** such as arrays (NOT objects). For objects use `for in` loop.
+
+Examples:
+``` javascript
+const elements = ['fire', 'ice', 'earth'];
+for (let element of elements) {
+    console.log(element);
+}
+
+// To get Indexes:
+for (let [i, element] of elements.entries()) {
+    console.log(`${element} is the ${i + 1} item`);
+}
+```
+
 TBA
