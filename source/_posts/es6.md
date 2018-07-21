@@ -201,4 +201,189 @@ for (let [i, element] of elements.entries()) {
 }
 ```
 
+## NEW ARRAY METHODS
+- `Aray.from()`
+``` javascript
+const items = document.querySelectorAll('li');
+const itemsArr = Array.from(items);
+const itemsArray = Array.from(items, item => item.textContent);
+```
+
+- `Array.of()`
+``` javascript
+const ages = Array.of(12, 53, 25, 9);
+```
+
+- `Array.find()`
+Loops through each items of array. Nice alternative to _lodash_.
+``` javascript
+const post = posts.find(post => post.id === 95);
+```
+
+- `Array.findIndex()`
+```javascript
+const postIndex = posts.findIndex(post => post.title === 'Hello World');
+```
+
+- `Array.some()` and `Array.every()`
+``` javascript
+const ages = [32, 15, 19, 12];
+
+// is there at least one adult in the group?
+const adultPresent = ages.some(age => age >= 18) // true
+
+// is everyone old enough to drink?
+const allOldEnough = ages.every(age => age >= 18) //false
+```
+
+## SPREAD OPERATOR
+**Spreads** each item into array so:
+takes every item from an **iterable** (arrays, strings, arguments object, DOM nodes) and apply it to containing array.
+Nice alternative to `concat()`
+This operator makes a **copy** not a _reference_.
+``` javascript
+const featured = ['Margheritta', 'Deep Dish', 'Hawaiian'];
+const special = ['Meatzza', 'Spicy Mama', 'Pepperoni'];
+
+const pizzas = [...featured, 'Vegge', ...special];
+
+// Copy of array:
+const fridayPizzas = [...pizzas]
+```
+
+Examples of use:
+- Remove object with an ID:
+
+``` javascript
+const id = 87;
+const commentIndex = comments.findIndex(comment => comment.id === id);
+const newComments = [...comments.slice(0, commentIndex), ...comments.slice(commentIndex + 1)];
+```
+
+- Spread into functions:
+
+``` javascript
+const name = ['Damian', 'Wójcik'];
+
+function sayHello(first, last) { alert `Hello ${first} ${last}` };
+
+sayHello(...name);
+```
+
+## REST OPERATOR
+Same syntax as `spread` but opposite purpose.
+
+- Used if number of arguments of function is unknown (**rest param**)
+
+``` javascript
+function convertCurrency(rate, tax, ...amounts) { ... };
+convertCurrency(1.5, 10, 520, 360, 970, 1000);
+```
+
+- Used for destructing data:
+
+``` javascript
+const student = ['John Doe', 123, 2, 3, 5, 2, 4, 4];
+const [name, id, ...grades] = student;
+console.log(...grades);
+```
+
+## OBJECT LITERAL UPGRADES
+- Assigning properties
+``` javascript
+// Old way
+const person = {
+    name: name,
+    age: age,
+    address: address
+}
+
+// New way
+const person = {
+    name,
+    age,
+    address
+}
+```
+
+- methods shorthands
+``` javascript
+// Old way
+const modal = {
+    create: function() { ... },
+    open: function() { ... }
+}
+
+// New way
+const modal = {
+    create() { ... },
+    open() { ... }
+}
+```
+
+- computed object property keys
+``` javascript
+const key = 'pocketColor';
+const value = '#FFC600';
+const tShirt = {
+    [key]: value,
+    [`${key}Opposite`]: invertColor(value)
+}
+```
+
+- assigning values to keys at the same array positions
+``` javascript
+const keys = ['size', 'color', 'weight'];
+const values = ['medium', 'red', 100];
+const shirt = {
+    [keys.shift()]: values.shift(),
+    [keys.shift()]: values.shift(),
+    [keys.shift()]: values.shift()
+}
+```
+
+## PROMISES
+Async operation. Something that is going to happen in the future, but probably not now. Often used when fetching JSON Api data, that return a Promise.
+
+- basic example
+```javascript
+const postPromise = fetch('apiURL');
+postPromise
+    .then(data => data.json())
+    .then(data => console.log(data))
+    .catch(error => console.error(error))
+```
+Such an operation is called **chaining** and is also connected with term **flow control**.
+
+`.then()` - only fires, when data is successfully loaded
+`.catch()` = catches if any errors ocurs
+
+- building your own promise
+``` javascript
+const myPromise = new Promise((resolve, reject) => {
+    setTimeout(() => {
+        reject(Error('My error message'));
+    }, 1000);
+});
+
+myPromise
+    .then(data => console.log(data))
+    .catch(error => console.error(error))
+```
+- working with multiple promises
+
+``` javascript
+const postsPromise = fetch('http://wesbos.com/wp-json/wp/v2/posts');
+const streetCarsPromise = fetch('http://data.ratp.fr/api/datasets/1.0/search/?q=paris');
+
+Promise
+    .all([postsPromise, streetCarsPromise])
+    .then(responses => {
+        return Promise.all(responses.map(res => res.json()))
+    })
+    .then(responses => {
+        console.log(responses);
+    });
+```
+
 TBA
