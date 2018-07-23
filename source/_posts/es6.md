@@ -386,4 +386,35 @@ Promise
     });
 ```
 
+## SYMBOL
+Is a new **primitive**. Stand for an unique value that prevents naming collision.
+``` javascript
+const person = Symbol('Damian');
+const me = Symbol('Damian');
+person === me; // false
+```
+
+## MODULES & TOOLING
+JavaScript packages can be now imported/exported as a **module**.
+Module bundlers:
+- **Webpack** - most popular, natively used in Angular, complex configuration
+- **Browserify**
+- **SystemJS** - dynamic, uses **jspm packages**
+
+Creating own module:
+``` javascript
+// user.js
+export default function User() { ... };
+export createURL(name) { ... };
+
+// app.js
+import User, { createURL } from './src/user';
+```
+### TOOLS
+- **ESLint** - code syntax quality fixer. Popular preset: **airbnb**
+- **Babel** - compile new ECMAScript syntax into old ES5, supported by all browsers. Provides also a minifier.
+- **Polyfills** - supports new methods in older browsers (recreates them in ES5). E.g. `Array.from()`
+    * **'babel-polyfill'**
+    * **'polyfill.io**
+
 TBA
