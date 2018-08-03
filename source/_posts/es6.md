@@ -468,4 +468,37 @@ class Dog extends Animal {
 
 Whenever you **extend** something, you need to create the thing you are extending first, before you create thing that you want. This is what `super()` stands for.
 
+## GENERATORS
+Are the functions with possible multiple returns (_yield_).
+Generators are syntetic sugar for **iterators**.
+
+``` javascript
+function* listPeople() {
+    yield 'Damian';
+    yield 'Adam';
+    yield 'Peter';
+}
+const people = listPeople();
+```
+
+Generators allow us to do waterfall ajax requests avoiding callback hell.
+
+## PROXIES
+Example:
+
+``` javascript
+const phoneHandler = {
+    set(target, name, value) {
+        target[name] = value.match(/[0-9]/g).join('');
+    },
+    get(target, name) {
+        return target[name].replace(/(\d{3})(\d{3})(\d{4})/, '($1)-$2-$3');
+    }
+}
+const phoneNumbers = new Proxy({}, phoneHandler);
+```
+
+Learn more in docs.
+
+
 TBA
