@@ -4,6 +4,9 @@ date: 2018-07-01 18:40:34
 tags: #pwa #optimization
 ---
 This post covers everything I have recently learned about PWA. It is also a kind of checklist and list of procedures, how to properly transform a page into PWA.
+By steps performed in this Post, my webpage got 100% in Lighthouse PWA Audit.
+
+![Lighthouse PWA Result](lighthouse.jpg)
 
 ## FEATURES
 - Invented by Google
