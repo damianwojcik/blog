@@ -500,5 +500,58 @@ const phoneNumbers = new Proxy({}, phoneHandler);
 
 Learn more in docs.
 
+## SETS
+Set is like a unique array, each item can be added maximum once.
+Sets are not index based.
+
+``` javascript
+const people = new Set(['Damian', 'Adam', 'Peter']);
+people.add('Alex');
+```
+
+Methods:
+- `.add()`
+- `.clear()`
+- `.entries()`
+- `.delete()`
+- `.size()`
+- `.values()`
+
+To loop through set we can use `for of` loop or use generator's `.next()` method.
+
+### WEAKSETS
+- Can only contain objects.
+- Not iterable (can not loop through it)
+- No `.clear()` method
+- Garbage Collection - contains a reference to object instead of its copy. Changing or removing object will also affect the WeakSet object.
+
+``` javascript
+let dog1 = { name: 'Azor', age: 5 };
+let dog2 = { name: 'Lisa', age: 3 };
+const weakDogs = new WeakSet([dog1, dog2]);
+```
+
+## MAPS
+- Are like Sets but to **Objects**
+- Has `key => value` pairs
+- Has similiar methods like Sets.
+
+``` javascript
+const dogs = new Map();
+dogs.set('Azor', 3);
+dogs.set('Lisa', 2);
+dogs.set('Hugo', 2);
+
+dogs.forEach((val, key) => console.log(val, key));
+
+for (const [key, val] of dogs) {
+    console.log(key, val);
+}
+```
+
+### WEAKMAP
+- Does not have a size
+- Not iterable
+- Garbage collection (see WeakSets desc.)
 
 TBA
