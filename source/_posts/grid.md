@@ -94,7 +94,7 @@ Defines a grid template by referencing the names of the grid areas properties de
 - `align-content` - aligns the _grid_ along the **block (column)** axis
 - `place-content` - combination of `justify-content` and `align-content`
 
-Shorthand: 
+Shorthand:
 - `justify-*` is for **row axis**
 - `align-*` is for **column axis**
 
