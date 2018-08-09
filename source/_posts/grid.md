@@ -1,6 +1,6 @@
 ---
 title: Grid
-date: 2018-07-17 19:27:05
+date: 2018-08-06 06:43:51
 tags: #grid #css #responsive
 ---
 ## GRID FEATURES

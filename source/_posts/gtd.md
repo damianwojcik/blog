@@ -1,15 +1,15 @@
 ---
-title: Getting Things Done
-date: 2018-08-06 06:43:51
+title: 5 rules of Getting Things Done
+date: 2018-07-17 19:27:05
 tags: #gtd #productivity
 ---
 
 ![Mug](mug.jpg)
 
-## RULE 1 - Keep your mind empty
- Throw out everything from your head. Your mind is desired for creative thinking, not for storing data and memorize things.
- You should keep every idea, date, plan of project, shopping list in other place than your head. For example on paper, mobile app.
- Constantly thinking about things that "_you need to remember_" blocks your mind's RAM memory. Process of creative thinking (e.g. problem solving) and process of thinking about thing you need to remember are both interrupting each other.
+## RULE 1 - Empty mind
+Keep your mind empty. Throw out everything from your head. Your mind is desired for creative thinking, not for storing data and memorize things.
+You should keep every idea, date, plan of project, shopping list in other place than your head. For example on paper, mobile app.
+Constantly thinking about things that "_you need to remember_" blocks your mind's RAM memory. Process of creative thinking (e.g. problem solving) and process of thinking about thing you need to remember are both interrupting each other.
 
 **Exercise 1**:
 - take piece of paper and a pen
@@ -54,7 +54,7 @@ You should have easy access to your inboxes and read them regularly.
 - read later app (pocket)
 - youtube watchlater list
 
-## RULE 2 - Day starts in the evening
+## RULE 2 - Prepare for day
 The key of effective productivity attitude is to have planned the next day, before going to bed. Effect of this is the right attitude to "_get things done_" right after waking up.
 
 > Every day begins on the evening of the previous day
@@ -81,12 +81,25 @@ Weekly review is key to keep the system on the right level.
 
 Repeatable tasks (daily, weekly) gather into routines. Those routines will soon become your habbits. Keep in mind to developing right habbits and get rid of bad habbits.
 
-## Plan plan plan
+## RULE 5 - Natural Planning Model
+![NPM](npm.jpg)
+1. You define your **purpose and principles**. First you ask yourself **why** are you going to do that. Defining a clear and specific goal is common sense and has significant benefits. It allows you to define what is the project success, create a framework to make decisions, think about the needed resources, clarify the focus and awaken your creativity.
+You rarely think about your principles consciously, but they exist, and are of particular importance when there are more people involved. You don’t want to reach the result at any cost. If your personal values are violated, you will consider the project as a failure.
+
+2. You **envision the outcome**. This is the **what**. You get a clear picture in mind of what the final result should look like in reality. It must be the best picture possible, with the project completed successfully. This way allows you to activate all the conscious and unconscious resources available to you—ideas, thoughts, patterns
+
+3. Perform a **mindstorm**. Here comes the **how**. Ideas start to pop in your head in a somewhat random order. It is usually an internal process, but if the project is complex, you should capture those ideas using mind-mapping or any other type of technique. This prevents you from forgetting the ideas and helps you to generate new ideas from the original ones.
+
+4. You **organize** everything. Once you know why, what and how, you are able to identify the different components of the project and to define the sequence of activities to be undertaken as well as their priorities.
+
+5. You identify the **next actions**. Finally, you allocate the needed resources to get the project moving. It is about deciding the next actions for each of the moving parts of the project.
+
 > 10 minutes of planing can save you 10 hours of programming
 
-## Natural Planning Model
-![NPM](npm.jpg)
+### How to plan?
+How intense should we really plan?
+- As much as needed to throw out project from your mind. If it still in your mind it means that you still have something to plan about it.
 
-... tba ..
+> You can feel good about not doing something only if you know what you aren't doing.
 
-David Allen
+*David Allen - 'Getting Things Done'*
