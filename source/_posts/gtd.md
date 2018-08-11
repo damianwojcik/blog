@@ -1,10 +1,12 @@
 ---
-title: 5 rules of Getting Things Done
+title: 6 rules of GTD
 date: 2018-07-17 19:27:05
 tags: #gtd #productivity
 ---
 
 ![Mug](mug.jpg)
+
+GTD - Getting Things Done
 
 ## RULE 1 - Empty mind
 Keep your mind empty. Throw out everything from your head. Your mind is desired for creative thinking, not for storing data and memorize things.
@@ -54,7 +56,11 @@ You should have easy access to your inboxes and read them regularly.
 - read later app (pocket)
 - youtube watchlater list
 
-## RULE 2 - Prepare for day
+## RULE 2 - Two minutes
+A two minute rule is a big **game changer**.
+If anything comes to your inbox and finishing it will take no longer than _2 minutes_ - do it **NOW**.
+
+## RULE 3 - Prepare for day
 The key of effective productivity attitude is to have planned the next day, before going to bed. Effect of this is the right attitude to "_get things done_" right after waking up.
 
 > Every day begins on the evening of the previous day
@@ -64,10 +70,10 @@ At the end of the day clear your **todo list** - it is what David Allen calls "_
 
 Keep mind about **time buffers** - best way is to schedule no more than **60%** time planned for working. Except urgent jobs and unplanned meetings or calls and dont forget about breaks which will be necessary if your "_power banks level drops_".
 
-## RULE 3 - Tasks 3(1)
+## RULE 4 - Tasks 3(1)
 For each list (tomorrow / week/ month / year etc.) determine **3 tasks** which MUST be done. From those 3 tasks determine **1 most important task** - which bring you closer to your main goal. This is what "_3(1)_" term stands for. Try to complete this one most important task right in the morning, even before your breakfast ([The ONE Thing](https://en.wikipedia.org/wiki/The_ONE_Thing_(book)).
 
-## RULE 4 - Weekly Reviews
+## RULE 5 - Weekly Reviews
 Weekly reviews are crucial for proper bringing GTD into life. Plan one day in the week (for me it is sunday) for your review. It is time to stop, look behind and sumamarize progress that happened during the last week. Write down the summary in your journal and wipe up it from your mind memory.
 Review all of your lists and goals (update if needed) and prepare new list for upcoming week in right perspective. Clear all junk you gathered during week and wipe up all of your inboxes (most important notes replace with tasks).
 Dont be afraid to change your goals and drop away your ideas or change priorities of tasks. You gained more experience and knowledge and now those may change.
@@ -81,7 +87,7 @@ Weekly review is key to keep the system on the right level.
 
 Repeatable tasks (daily, weekly) gather into routines. Those routines will soon become your habbits. Keep in mind to developing right habbits and get rid of bad habbits.
 
-## RULE 5 - Natural Planning Model
+## RULE 6 - Natural Planning Model
 ![NPM](npm.jpg)
 1. You define your **purpose and principles**. First you ask yourself **why** are you going to do that. Defining a clear and specific goal is common sense and has significant benefits. It allows you to define what is the project success, create a framework to make decisions, think about the needed resources, clarify the focus and awaken your creativity.
 You rarely think about your principles consciously, but they exist, and are of particular importance when there are more people involved. You don’t want to reach the result at any cost. If your personal values are violated, you will consider the project as a failure.
