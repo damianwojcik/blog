@@ -3,7 +3,7 @@ title: RxJS
 date: 2018-07-06 11:41:03
 tags: #reactive #javascript #rxjs
 ---
-RxJS is used by default in Angular6 to support Reactive Programming. After quick introduction there will be 19 practical code examples using RxJS library.
+RxJS is used by default in {% post_link angular2 [Angular6] %} to support Reactive Programming. After quick introduction there will be 19 practical code examples using [RxJS library](https://rxjs-dev.firebaseapp.com/).
 
 # INTRODUCTION
 
@@ -29,6 +29,7 @@ RxJS is used by default in Angular6 to support Reactive Programming. After quick
 
 # CODE EXAMPLES
 **Remember to import required methods from RxJS library to work.**
+All examples can be found on my [GitHub](https://github.com/khamian/rxjs-sandbox)
 
 ### Example 1 - Basic Observable from an Event
 ``` javascript

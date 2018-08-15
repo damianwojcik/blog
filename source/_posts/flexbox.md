@@ -12,6 +12,7 @@ tags: #flexbox #css #responsive
 - Cross-browser
 - Used by Bootstrap 4
 - Changing Flexbox Items `order` may cause accessibility issues (e.g. break keyboard navigation)
+- Synergizes well with {% post_link grid %}
 
 ## TERMINOLOGY
 ![Flexbox Terminology](terminology.jpg)

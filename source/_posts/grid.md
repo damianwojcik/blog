@@ -10,7 +10,7 @@ tags: #grid #css #responsive
 - Supports the **minmax()** function as a value
 - Mobile-first oriented
 - Nested grids - grids are not inherited by child elements
-- Can be combined with Flexbox or floats
+- Can be combined with {% post_link flexbox %} or floats
 - Better use **Firefox** for debugging (**built in Grid visualiser**)
 - Works well with page generators such as <https://cssgrid.cc/>
 - Changing Grid Items `order` may cause accessibility issues (e.g. break keyboard navigation)
@@ -158,7 +158,7 @@ header {
 
 ## GRID VS FLEXBOX
 They both can work great together.
-Also in some cases Flexbox is better than Grid and in other cases Grid is better than Flexbox.
+Also in some cases {% post_link flexbox %} is better than Grid and in other cases Grid is better than Flexbox.
 
 Example cases:
 - axis-flipping => **grid/flexbox**

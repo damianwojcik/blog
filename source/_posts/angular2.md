@@ -17,7 +17,7 @@ Angular2 is co-developed by 2 gigants: **Google** and **Microsoft**.
 - Better mobile support.
 - Angular CLI]
 - Uses **TypeScript**.
-- Uses **RxJS** and Observables.
+- Uses {% post_link rxjs %} and Observables.
 
 ### WHY TYPESCRIPT?
 - Strong typings.
@@ -244,3 +244,5 @@ Transforms data before displaying it into view.
     {{ dateObj | date:'long' }}
 ```
 More pipes in docs.
+
+Further reading: {% post_link angular2-part2 %}

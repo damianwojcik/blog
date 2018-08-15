@@ -146,5 +146,6 @@ Below is the list of **21 rules** how to boost up the productivity. 'Eat That Fr
 - Don't waste your time and focus on other tasks.
 - **Do the thing no matter that you like it or not**.
 
+Further reading: {% post_link gtd %}
 
 *Brian Tracy - 'Eat That Frog!'*

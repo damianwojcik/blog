@@ -71,7 +71,7 @@ At the end of the day clear your **todo list** - it is what David Allen calls "_
 Keep mind about **time buffers** - best way is to schedule no more than **60%** time planned for working. Except urgent jobs and unplanned meetings or calls and dont forget about breaks which will be necessary if your "_power banks level drops_".
 
 ## RULE 4 - Tasks 3(1)
-For each list (tomorrow / week/ month / year etc.) determine **3 tasks** which MUST be done. From those 3 tasks determine **1 most important task** - which bring you closer to your main goal. This is what "_3(1)_" term stands for. Try to complete this one most important task right in the morning, even before your breakfast ([The ONE Thing](https://en.wikipedia.org/wiki/The_ONE_Thing_(book)).
+For each list (tomorrow / week/ month / year etc.) determine **3 tasks** which MUST be done. From those 3 tasks determine **1 most important task** - which bring you closer to your main goal. This is what "_3(1)_" term stands for. Try to complete this one most important task right in the morning, even before your breakfast ([The ONE Thing](https://en.wikipedia.org/wiki/The_ONE_Thing_(book)). Read also about {% post_link frog %}.
 
 ## RULE 5 - Weekly Reviews
 Weekly reviews are crucial for proper bringing GTD into life. Plan one day in the week (for me it is sunday) for your review. It is time to stop, look behind and sumamarize progress that happened during the last week. Write down the summary in your journal and wipe up it from your mind memory.

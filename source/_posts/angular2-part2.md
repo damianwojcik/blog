@@ -3,8 +3,7 @@ title: Angular2 Intro Part 2
 date: 2018-07-09 13:14:35
 tags: #angular #javascript #services
 ---
-After long delay I decided to migrate from AngularJS into Angular2+ (actually 6).
-Summary of my notes after completing few tutorials about Introduction/Quick Start.
+This is continuation to {% post_link angular2 %}
 
 ## SERVICES
 Are classes with specific purpose.
@@ -66,13 +65,11 @@ In both of those files add:
 ```
 
 ## HTTP AND OBSERVABLES
-Observables are served in Angular6 by **RxJS 6** library.
+Observables are served in Angular6 by {% post_link rxjs %} library.
 
 **Observables** - sequence of items that arrive asynchronously over time (**stream of data**). To the contrary to standard HTTP response which is single item.
 **Observer** - watches Observable and executes an action if it changes.
 **Subscription** - tells *Observer* to observe *Observable* (listen).
-
-More about Observables and RxJS in my other post.
 
 To add **HTTP** to your app you must:
 - In <code>app.module.ts</code>:
@@ -108,6 +105,8 @@ In <code>emplist.component.ts</code>:
             });
     }
 ```
+
+In above example an ES6 arrow function syntax was used. Learn more about {% post_link es6 %}
 3. **Optionally create Interface for data and add Error Handling.**
 
 ## ROUTING
